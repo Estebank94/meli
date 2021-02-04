@@ -1,0 +1,12 @@
+.categories {
+  width: 100%;
+  grid-column: 2/11;
+  margin: 1rem 0;
+}
+.categories li {
+  display: inline;
+  list-style: none;
+  color: #999999;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,14 @@
+@import '../../theme/variables';
+
+.categories {
+  width: 100%;
+  grid-column: 2/11;
+  margin: $marginMedium 0;
+
+  li {
+    display: inline;
+    list-style: none;
+    color: $gray;
+  }
+}
+

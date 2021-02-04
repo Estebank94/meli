@@ -1,0 +1,52 @@
+@import '../../theme/variables';
+
+header {
+  background-color: $yellow;
+  display: flex;
+  width: 100%;
+  padding: .5rem 0;
+
+  a {
+    background-size: 3rem 2.25rem;
+    width: 3rem;
+    height: 2.25rem;
+    background-image: image-set(url(../../assets/Logo_ML.png) 1x, url(../../assets/Logo_ML@2x.png.png.png) 2x);
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+    grid-column: 2/2;
+  }
+
+  form {
+    grid-column: 3/12;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: $borderRadiusSmall;
+
+    input {
+      width: 95%;
+      font-size: $fontSizeMedium;
+      border: none;
+      margin: .5rem;
+      color: $black;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  button {
+    width: 5%;
+    min-width: 2.5rem;
+    background-color: $lightGray;
+    background-image: image-set(url(../../assets/ic_Search.png) 1x, url(../../assets/ic_Search@2x.png.png.png) 2x);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 $borderRadiusSmall $borderRadiusSmall 0;
+  }
+}
