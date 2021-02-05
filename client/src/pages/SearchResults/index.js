@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import { useLocation } from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux'
 import { Helmet } from 'react-helmet';
-import {searchItems, cleanSearchItems} from 'store/actions'
+import {searchItems} from 'store/actions'
 import './styles.scss'
 
 import Item from './Item'
